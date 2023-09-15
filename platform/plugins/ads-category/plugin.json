@@ -1,0 +1,10 @@
+{
+    "id": "botble/ads-category",
+    "name": "Ads Category",
+    "namespace": "Botble\\AdsCategory\\",
+    "provider": "Botble\\AdsCategory\\Providers\\AdsCategoryServiceProvider",
+    "author": "Cidigi Inovasi",
+    "url": "https://cidigiinovasi.com",
+    "version": "1.0",
+    "description": "Ads manager for Category product"
+}

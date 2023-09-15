@@ -1,0 +1,122 @@
+.cmp831 {
+  padding: 3px 0;
+}
+.cmp831 .DM1xQK {
+  height: 0.1875rem;
+  width: 100%;
+  background-position-x: -1.875rem;
+  background-size: 7.25rem 0.1875rem;
+  background-image: repeating-linear-gradient(45deg, #6fa6d6, #6fa6d6 33px, transparent 0, transparent 41px, #f18d9b 0, #f18d9b 74px, transparent 0, transparent 82px);
+}
+
+.mu8SJw {
+  padding: 20px 24px 24px;
+}
+.mu8SJw ._0Ihttg {
+  padding: 0 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.mu8SJw ._0Ihttg .PW9gQm {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  line-height: 24px;
+}
+.mu8SJw ._0Ihttg .P9zSI {
+  display: flex;
+  align-items: flex-start;
+  line-height: 14px;
+  max-width: 50%;
+}
+.mu8SJw ._0Ihttg .P9zSI .g5X7k {
+  text-align: right;
+  font-size: 12px;
+  word-wrap: break-word;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.KZmoHt {
+  max-width: 100%;
+  margin: 0 0 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.AnJAa1 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+  white-space: pre-line;
+}
+
+.rqUx-N {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  grid-gap: 12px;
+  gap: 12px;
+}
+.rqUx-N:last-child ._4yfsbS {
+  height: 0;
+}
+.rqUx-N ._4yfsbS {
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #d8d8d8;
+}
+.rqUx-N .JNurwA {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+.rqUx-N .JNurwA .rVemEI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+}
+.rqUx-N .JNurwA .rVemEI .qrqTFX {
+  width: 11px;
+  height: 11px;
+  margin-left: 2px;
+  flex-shrink: 0;
+  z-index: 1;
+  border-radius: 50%;
+  background: #d8d8d8;
+}
+.rqUx-N .JNurwA .B3MLEe {
+  margin-top: 3px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0 12px;
+}
+.rqUx-N .JNurwA .u4VSsO {
+  min-width: 0;
+}
+.rqUx-N .JNurwA .u4VSsO p {
+  word-wrap: break-word;
+  margin: 1px 0 8px;
+}
+.rqUx-N .JNurwA .u4VSsO p._0P1byN {
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+.rqUx-N p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}/*# sourceMappingURL=tracking.css.map */

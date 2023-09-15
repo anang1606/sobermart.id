@@ -1,0 +1,611 @@
+@charset "UTF-8";
+body {
+  background-color: #f5f5f5 !important;
+}
+
+.dashboard-navigation .nav-item {
+  background-color: #fff !important;
+}
+
+._2xiBC {
+  overflow: hidden;
+  flex-grow: 1;
+  padding: 1.5625rem 2rem;
+  background: #fff;
+  max-width: 1000px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif !important;
+}
+._2xiBC._2xiBD {
+  margin: 0 auto;
+}
+._2xiBC .RCVyH2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+._2xiBC .RCVyH2 .VoFc2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.8);
+}
+._2xiBC .RCVyH2 .WO0t3c {
+  display: flex;
+}
+._2xiBC .RCVyH2 .WO0t3c .qZnY9m {
+  border-left: 0.5px solid rgba(0, 0, 0, 0.26);
+  padding-left: 0.625rem;
+  margin-left: 0.625rem;
+}
+._2xiBC .RCVyH2 .WO0t3c .qZnY9m:first-child {
+  padding-left: 0;
+  margin-left: 0;
+  border-left: 0;
+}
+._2xiBC .RCVyH2 .WO0t3c .AtS1UR {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+._2xiBC .S6bcaH {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1.25rem 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+._2xiBC .S6bcaH .IQwy {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1rem;
+  cursor: default;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+._2xiBC .S6bcaH .input-with-validator-wrapper {
+  margin: 0 0.5rem 0 0.875rem;
+  position: relative;
+}
+._2xiBC .S6bcaH .input-with-validator {
+  width: 25.875rem;
+  height: 2.75rem;
+  padding: 0.8125rem;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 2px 0 0 rgba(0, 0, 0, 0.02);
+}
+._2xiBC .S6bcaH .input-with-validator input {
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.FINVFI {
+  position: relative;
+}
+
+.QPSyaB {
+  margin-top: 14px;
+  margin-bottom: 12px;
+}
+.QPSyaB .stardust-tabs-header__tab {
+  height: 46px;
+  border-bottom: 1px solid #efefef;
+}
+.QPSyaB .stardust-tabs-header__tab {
+  flex: 1 0 auto;
+  color: #555;
+  font-size: 1rem;
+}
+.QPSyaB .stardust-tabs-header__tab--active {
+  color: var(--primary-color);
+}
+
+.stardust-tabs-header {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09) !important;
+}
+
+.stardust-tabs-header__tab-indicator {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  background: var(--primary-color);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stardust-tabs-header-wrapper {
+  position: sticky;
+  z-index: 999;
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.stardust-tabs-header__tab {
+  font-family: -apple-system, Helvetica Neue, Helvetica, Roboto, Droid Sans, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stardust-tabs-header__tab.nav-link.active {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: var(--primary-color);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: var(--primary-color);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.input-with-validator {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-sizing: border-box;
+  box-shadow: inset 0 2px 0 0 rgba(0, 0, 0, 0.02);
+  color: #222;
+  height: 40px;
+  padding: 10px;
+  transition: border-color 0.1s ease;
+}
+
+.Crrq8D {
+  width: 6.25rem;
+  height: 2.75rem;
+  text-align: center;
+  border-radius: 0.125rem;
+  outline: none;
+  color: #fff;
+  border: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+  background: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.Crrq8D:disabled {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: default;
+}
+
+.coOw9l {
+  margin-top: 16px;
+}
+
+.TMCf0u {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.LUGhvJ {
+  width: 50%;
+  margin-bottom: 20px;
+  height: 118px;
+  box-sizing: border-box;
+}
+.LUGhvJ:nth-child(odd) {
+  padding-right: 10px;
+}
+
+.d6WhVp {
+  height: 100%;
+  position: relative;
+}
+
+.vc_my-wallet-page-vouchers_pc {
+  --vc-card-width: 50;
+  --vc-card-height: 7.375rem;
+  --vc-card-sawtooth-margin: 0.25rem;
+  --vc-card-left-border-color: #e8e8e8;
+  --vc-card-left-fill-color: #fff;
+  --vc-card-right-border-color: #e8e8e8;
+  --vc-card-background-color: #fff;
+  --vc-template-box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.07);
+  --vc-logo-size: 3.5rem;
+  --vc-expiry-font-size: 0.75rem;
+  --vc-expiry-line-height: 0.875rem;
+  --vc-expiry-margin-top: 0.25rem;
+  --vc-main-title-font-size: 1rem;
+  --vc-main-title-line-height: 1.25rem;
+  --vc-subtitle-font-size: 0.875rem;
+  --vc-subtitle-line-height: 1rem;
+  --vc-product-scope-font-size: 0.75rem;
+  --vc-product-scope-line-height: 0.875rem;
+  --vc-product-scope-padding: 0.0625rem 0.25rem;
+  --vc-icon-text-font-size: 0.75rem;
+  --vc-icon-text-line-height: 0.875rem;
+  --vc-icon-text-max-height: 1.75rem;
+  --vc-icon-text-margin-top: 0.25rem;
+  --vc-radio-button-border: 0.0625rem solid rgba(0, 0, 0, 0.14);
+  --vc-radio-button-box-shadow: var(--black2) 0 0.125rem 0 0;
+}
+
+@media screen and (max-width: 850px) {
+  .TMCf0u {
+    flex-direction: column;
+  }
+  .vc_my-wallet-page-vouchers_pc {
+    --vc-card-width: 80vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .TMCf0u {
+    flex-direction: column;
+  }
+  .vc_my-wallet-page-vouchers_pc {
+    --vc-card-width: 64vw;
+  }
+}
+@media screen and (max-width: 759px) {
+  .vc_my-wallet-page-vouchers_pc {
+    --vc-card-width: 80vw;
+  }
+}
+.vc_my-wallet-page-vouchers_sellerVoucher {
+  --vc-card-left-border-color: #e8e8e8;
+  --vc-card-left-fill-color: #fff;
+  --vc-card-right-border-color: #e8e8e8;
+  --vc-card-background-color: #fff;
+}
+
+.vc_Card_card,
+.vc_Card_container {
+  width: var(--vc-card-width, 28.375rem);
+}
+
+.vc_Card_card {
+  height: var(--vc-card-height, 7.375rem);
+  position: relative;
+}
+
+.vc_Card_left {
+  background: linear-gradient(180deg, var(--vc-card-left-border-color, #e8e8e8) var(--vc-card-sawtooth-margin, 0.25rem), transparent 0, transparent calc(100% - var(--vc-card-sawtooth-margin, 0.25rem)), var(--vc-card-left-border-color, #e8e8e8) calc(100% - var(--vc-card-sawtooth-margin, 0.25rem))) 0 0/0.0625rem 100% no-repeat, linear-gradient(180deg, var(--vc-card-left-fill-color, #fff) var(--vc-card-sawtooth-margin, 0.25rem), transparent 0, transparent calc(100% - var(--vc-card-sawtooth-margin, 0.25rem)), var(--vc-card-left-fill-color, #fff) calc(100% - var(--vc-card-sawtooth-margin, 0.25rem))) 0 0/100% 100% no-repeat;
+  border-bottom: 0.0625rem solid var(--vc-card-left-border-color, #e8e8e8);
+  border-bottom-left-radius: 0.125rem;
+  border-top: 0.0625rem solid var(--vc-card-left-border-color, #e8e8e8);
+  border-top-left-radius: 0.125rem;
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: var(--vc-card-height, 7.375rem);
+}
+
+.vc_Card_sawtooth {
+  background: linear-gradient(180deg, transparent calc(var(--vc-card-radius, 0.25rem) * 2), var(--vc-card-left-border-color, #e8e8e8) 0) 0 0.0625rem/0.0625rem calc(var(--vc-card-radius, 0.25rem) * 2 + var(--vc-card-gap, 0.125rem)) repeat-y, radial-gradient(circle at 0 var(--vc-card-radius, 0.25rem), transparent 0, transparent calc(var(--vc-card-radius, 0.25rem) - 0.0625rem), var(--vc-card-left-border-color, #e8e8e8) 0, var(--vc-card-left-border-color, #e8e8e8) var(--vc-card-radius, 0.25rem), var(--vc-card-left-fill-color, #fff) 0) 0 0.0625rem/100% calc(var(--vc-card-radius, 0.25rem) * 2 + var(--vc-card-gap, 0.125rem)) repeat-y;
+  bottom: calc(var(--vc-card-sawtooth-margin, 0.25rem) - 0.0625rem);
+  position: absolute;
+  top: calc(var(--vc-card-sawtooth-margin, 0.25rem) - 0.0625rem);
+  width: 100%;
+}
+
+.vc_Card_right {
+  background-color: var(--vc-card-background-color, #fff);
+  border: 0.0625rem solid var(--vc-card-right-border-color, #e8e8e8);
+  border-bottom-right-radius: 0.125rem;
+  border-left: none;
+  border-top-right-radius: 0.125rem;
+  box-sizing: border-box;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(100% - var(--vc-card-height, 7.375rem));
+}
+
+.vc_VoucherStandardTemplate_hideOverflow {
+  border: 0.0625rem solid transparent;
+  border-radius: 0.125rem;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.vc_VoucherStandardTemplate_template {
+  border: 0.0625rem solid transparent;
+  border-left: none;
+  box-shadow: var(--vc-template-box-shadow, 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.07));
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  position: relative;
+  transition: background 1s ease;
+}
+
+.vc_VoucherStandardTemplate_left {
+  align-items: center;
+  border-right: 0.0625rem dashed #e8e8e8;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: var(--vc-card-height, 7.375rem);
+}
+
+.vc_Logo_imageLogo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.vc_Logo_logo {
+  display: block;
+  height: var(--vc-logo-size, 3.5rem);
+  width: var(--vc-logo-size, 3.5rem);
+}
+
+.vc_Logo_circular {
+  border: 0.0625rem solid #efefef;
+  border-radius: 50%;
+}
+
+.vc_IconText_iconText {
+  -webkit-box-pack: center;
+  color: var(--vc-icon-text-color, rgba(0, 0, 0, 0.87));
+  font-size: var(--vc-icon-text-font-size, 0.75rem);
+  line-height: var(--vc-icon-text-line-height, 0.875rem);
+  margin-top: var(--vc-icon-text-margin-top, 0.3125rem);
+  max-height: var(--vc-icon-text-max-height, 1.75rem);
+  max-width: 90%;
+  opacity: var(--vc-icon-text-opacity, 1);
+  padding: 0 0.25rem;
+  text-align: center;
+  white-space: var(--vc-icon-text-white-space, unset);
+  word-break: break-word;
+}
+
+.vc_IconText_defaultLine {
+  -webkit-line-clamp: 2;
+}
+
+.vc_IconText_defaultLine,
+.vc_IconText_oneLine {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vc_VoucherStandardTemplate_middle {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 0.75rem;
+  position: relative;
+}
+
+.vc_MainTitle_mainTitle {
+  display: flex;
+}
+
+.vc_MainTitle_text {
+  color: var(--vc-main-title-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--vc-main-title-font-size, 1rem);
+  font-weight: 600;
+  line-height: var(--vc-main-title-line-height, 1.25rem);
+  white-space: var(--vc-card-mian-title-white-space, nowrap);
+}
+
+.vc_MainTitle_defaultLine,
+.vc_MainTitle_fsvLine {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vc_Subtitle_subTitle {
+  color: var(--vc-sub-title-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--vc-subtitle-font-size, 0.875rem);
+  font-weight: var(--vc-subtitle-font-weight, normal);
+  line-height: var(--vc-subtitle-line-height, 1rem);
+  margin: var(--vc-sub-title-margin, 0);
+  padding: var(--vc-sub-title-padding, 0);
+  text-align: var(--vc-subtitle-text-align, unset);
+  white-space: var(--vc-sub-title-white-space, unset);
+  word-break: break-word;
+}
+
+.vc_Subtitle_defaultLine {
+  -webkit-line-clamp: 2;
+}
+
+.vc_Subtitle_defaultLine,
+.vc_Subtitle_fsvLine {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vc_Label_label {
+  display: flex;
+  margin: var(--vc-card-label-margin, 0.3125rem 0 0.25rem 0);
+  min-width: 0;
+  overflow: hidden;
+  padding: var(--vc-card-label-padding, 0);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vc_Label_label div:only-child {
+  max-width: 100%;
+}
+.vc_Label_label .vc_Label_soberWalletLabelContent {
+  align-items: center;
+  font-size: var(--vc-card-label-font-size, 0.75rem);
+  line-height: var(--vc-card-label-line-height, 0.875rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vc_Label_label .vc_Label_soberWalletLabel {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.125rem;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  margin: 0.0625rem 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding: var(--vc-card-label-content-padding, 0.0625rem 0.25rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vc_Expiry_expiry {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: var(--vc-expiry-font-size, 0.75rem);
+  line-height: var(--vc-expiry-line-height, 0.875rem);
+  margin-top: var(--vc-expiry-margin-top, 0.25rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vc_Expiry_validUntil {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.vc_VoucherStandardTemplate_right {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.75rem;
+  position: relative;
+}
+
+.vc_VoucherStandardTemplate_center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-claim {
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+  overflow: visible;
+  outline: 0;
+  height: 2.25rem;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.btn-claim:hover {
+  color: #fff;
+}
+.btn-claim:disabled {
+  background-color: transparent !important;
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color);
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+.btn-claim:disabled:hover {
+  color: var(--primary-color);
+}
+
+.vc_my-wallet-page-vouchers_freeShippingVoucher {
+  --vc-icon-text-color: #fff;
+  --vc-card-left-border-color: #00bfa5;
+  --vc-card-left-fill-color: #00bfa5;
+  --vc-card-right-border-color: #e8e8e8;
+  --vc-card-background-color: #fff;
+  --vc-main-title-font-size: toRem(16px);
+  --vc-main-title-line-height: toRem(20px);
+}
+
+.vc_my-wallet-page-vouchers_soberVoucher {
+  --vc-icon-text-color: #fff;
+  --vc-card-left-border-color: var(--primary-color);
+  --vc-card-left-fill-color: var(--primary-color);
+  --vc-card-right-border-color: #e8e8e8;
+  --vc-card-background-color: #fff;
+}
+
+.vc_RadioButton_radio {
+  fill: currentColor;
+  stroke: currentColor;
+  align-items: center;
+  border: var(--vc-radio-button-border, 1px solid rgba(0, 0, 0, 0.14));
+  border-radius: 50%;
+  box-shadow: var(--vc-radio-button-box-shadow, rgba(0, 0, 0, 0.02) 0 2px 0 0);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  height: 1.125rem;
+  justify-content: center;
+  width: 1.125rem;
+}
+
+.vc_RadioButton_tick {
+  color: #fff;
+  height: 0.5625rem;
+  width: 0.5625rem;
+}
+
+.stardust-icon {
+  stroke: currentColor;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+}
+
+.vc_RadioButton_radioSelected {
+  background-color: var(--primary-color);
+  border-width: 0;
+}
+
+.iF8vqN {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.A3W8C5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.iF8vqN.BzObne {
+  color: rgba(0, 0, 0, 0.87);
+}/*# sourceMappingURL=voucher-styles.css.map */

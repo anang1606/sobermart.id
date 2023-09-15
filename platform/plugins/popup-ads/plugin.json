@@ -1,0 +1,10 @@
+{
+    "id": "botble/popup-ads",
+    "name": "Popup Ads",
+    "namespace": "Botble\\PopupAds\\",
+    "provider": "Botble\\PopupAds\\Providers\\PopupAdsServiceProvider",
+    "author": "Cidigi Inovasi",
+    "url": "https://cidigiinovasi.com",
+    "version": "1.0",
+    "description": "Ads manager for popup in home"
+}

@@ -1,0 +1,64 @@
+body {
+  background: #EFF2FC !important;
+}
+
+.plan-box {
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+.plan-box .card-body {
+  padding: 10px;
+}
+.plan-box .card-body .card-image {
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  position: relative;
+}
+.plan-box .card-body .card-image img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+.plan-box .card-body .card-content {
+  display: flex;
+  padding: 1rem;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.plan-box .card-body .card-content .paket-name {
+  font-size: 1.845rem;
+}
+.plan-box .card-body .card-content .pricing {
+  margin-top: 10px;
+  font-size: 1.245rem;
+  opacity: 0.8;
+  font-weight: 500;
+}
+.plan-box .card-body .btn-join {
+  background-color: white;
+  border: 3px solid #EFF2FC;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}
+.plan-box .card-body .btn-join:hover, .plan-box .card-body .btn-join:active, .plan-box .card-body .btn-join:focus, .plan-box .card-body .btn-join:active:focus {
+  background-color: #EFF2FC;
+  border: 3px solid #EFF2FC;
+  box-shadow: none;
+}/*# sourceMappingURL=pricing.css.map */

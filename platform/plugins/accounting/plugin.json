@@ -1,0 +1,10 @@
+{
+    "id": "botble/accounting",
+    "name": "Accounting",
+    "namespace": "Botble\\Accounting\\",
+    "provider": "Botble\\Accounting\\Providers\\AccountingServiceProvider",
+    "author": "Cidigi Inovasi",
+    "url": "https://cidigiinovasi.com",
+    "version": "1.1",
+    "description": "Accounting plugin"
+}
